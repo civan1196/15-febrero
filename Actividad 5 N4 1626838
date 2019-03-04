@@ -12,7 +12,7 @@ t1 = Serial.parseIn();
 Serial.end();
 
 Serial.begin(9600);
-Serial.printiIn("¿Cuantas veces el encendido de el Led Verde?");
+Serial.printIn("¿Cuantas veces el encendido de el Led Verde?");
 while(Serial.available()==0){
 }
 t2 = Serial.parseIn();   
